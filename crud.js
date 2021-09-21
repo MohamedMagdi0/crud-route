@@ -23,11 +23,11 @@ function addProduct() {
 
 //hello();
 
-console.log(6 % 2);
+/*console.log(6 % 2);
 console.log(6 % 3);
 console.log(6 % 4);
 console.log(6 % 5);
-
+*/
 const isPrime = (number) => {
   let numberisPrime;
   for (let i = 2; i < number; i++) {
