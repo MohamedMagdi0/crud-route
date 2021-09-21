@@ -41,10 +41,11 @@ const isPrime = (number) => {
 };
 
 function isPrime(number) {
+  //comment to
   for (i = 1; i <= 10; i++) {
     for (j = 1; j <= 10; j++) {
-      console.log("j", j);
-      console.log("j outside loop", j);
+      //console.log("j", j);
+      //console.log("j outside loop", j);
       if (i % j == 0 && i / j === 1) {
         console.log("is prime");
       }
